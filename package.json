@@ -1,0 +1,26 @@
+{
+  "name": "movie-dua-satu",
+  "authors": "Raden Argo <argoraden@gmail.com",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "autoprefixer": "^10.4.12",
+    "jsdom": "^20.0.0",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9",
+    "vitest": "^0.23.0"
+  }
+}
